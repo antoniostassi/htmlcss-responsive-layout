@@ -1,9 +1,9 @@
 
 /* Debug */
 
-/* *{
+*{
     outline:1px solid pink;
-} */
+}
 
 /* Reset */
 
@@ -226,6 +226,8 @@ main .container > .my-row {
     padding:10px 0;
 }
 
+/* Testimonials */
+
 .testimonials {
     text-align:center;
     padding-bottom:40px;
@@ -265,6 +267,22 @@ main .container > .my-row {
 }
 
 .testimonial-card > .quote > p.author {
-    
     margin-top:20px;
 }
+
+/* Benefits */
+
+.benefits h2{
+    text-align:center;
+    color:white;
+    margin:20px 0;
+    font-size:2.2rem;
+}
+
+.benefits .my-row{
+    min-height:100px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom:20px;
+}
+
