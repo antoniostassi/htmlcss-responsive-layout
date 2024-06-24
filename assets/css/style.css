@@ -19,6 +19,11 @@ html{
     outline:5px dashed red;
 }
 
+html a{
+    text-decoration:none;
+    color:white;
+}
+
 /* Palette */
 
 .blue-bg{
@@ -48,19 +53,28 @@ html{
     margin: 0 auto;
 }
 
-.hamburger{
-    display:block;
-    font-size:50px;
+/* Header */
+
+header{
+    padding:15px 15px;
 }
 
 .right-header{
     display:none;
 }
 
-/* Header */
-
-
-header{
-    padding:15px 5px;
+.hamburger{
+    display:none;
+    font-size:30px;
+    color:white;
+    padding:0 15px;
 }
 
+.right-header ul{
+    list-style-type: none;
+
+}
+
+.right-header ul li{
+    margin:0 10px;
+}
