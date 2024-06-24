@@ -25,6 +25,10 @@
         padding:0 40px;
     }
 
+    .testimonial-card.light-purple-bg{
+        text-align:center;
+    }
+
 }
 
 
@@ -79,6 +83,15 @@
 
     .light-purple-bg .my-col > h2{
         font-size:4rem;
+    }
+
+    .testimonial-card.light-purple-bg{
+        display:flex;
+    }
+
+    .testimonial-card.light-purple-bg > img {
+        margin: 20px 0;
+        margin-right:30px;
     }
 
 }

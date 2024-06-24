@@ -50,6 +50,10 @@ html img {
     background-color: #9792E4;
 }
 
+.light-purple-color {
+    color: #9792E4;
+}
+
 /* General Rules */
 
 .button {
@@ -174,7 +178,7 @@ main .container > .my-row {
     font-style:oblique;
 }
 
-.arrow.light-purple-bg{
+.arrow.light-purple-bg {
     margin:auto;
     width:20px;
     height:20px;
@@ -184,7 +188,7 @@ main .container > .my-row {
     align-items:center;
 }
 
-.arrow.light-purple-bg a{
+.arrow.light-purple-bg a {
     color:black;
 }
 
@@ -192,7 +196,7 @@ main .container > .my-row {
     text-align:center;
 }
 
-.light-purple-bg .my-col > .card{
+.light-purple-bg .my-col > .card {
     padding:0;
 }
 
@@ -209,12 +213,12 @@ main .container > .my-row {
     margin-top:30px;
 }
 
-.light-purple-bg .my-col > h2{
+.light-purple-bg .my-col > h2 {
     margin-top:40px;
 }
 
 .light-purple-bg .my-col > p,
-.light-purple-bg .my-col > h2{
+.light-purple-bg .my-col > h2 {
     color:white;
 }
 
@@ -222,24 +226,45 @@ main .container > .my-row {
     padding:10px 0;
 }
 
-.testimonials{
+.testimonials {
     text-align:center;
+    padding-bottom:40px;
 }
 
-.testimonial-card{
+.testimonials > h5 {
+    font-size:1rem;
+    margin:50px 0 20px;
+}
+
+.testimonials > h2 {
+    font-size:2rem;
+    margin:20px 0;
+}
+
+.testimonials > p {
+    line-height:35px;
+    word-spacing:5px;
+}
+
+.testimonial-card {
     border-radius:20px;
     padding:10px;
     margin-top:50px;
-    justify-content:center;
+    justify-content:flex-start;
     align-items:center;
     color:white;
+    text-align:left;
 }
 
-.testimonial-card > img{
-    display:inline-block;
+.testimonial-card > img {
     width:150px;
     height:150px;
     border-radius:50%;
     object-fit: cover;
-    margin-right:30px;
+    margin:20px 0;
+}
+
+.testimonial-card > .quote > p.author {
+    
+    margin-top:20px;
 }
