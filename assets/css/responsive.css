@@ -176,6 +176,10 @@
         width:calc((100% / 3) - 20px);
     }
 
+    .light-purple-bg > .container > .my-row.flex {
+        padding:0 100px;
+    }
+
 }
 
 
