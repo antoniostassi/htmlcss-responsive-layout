@@ -221,3 +221,25 @@ main .container > .my-row {
 .light-purple-bg {
     padding:10px 0;
 }
+
+.testimonials{
+    text-align:center;
+}
+
+.testimonial-card{
+    border-radius:20px;
+    padding:10px;
+    margin-top:50px;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+
+.testimonial-card > img{
+    display:inline-block;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit: cover;
+    margin-right:30px;
+}
