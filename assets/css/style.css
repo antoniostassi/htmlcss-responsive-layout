@@ -1,0 +1,66 @@
+
+/* Debug */
+
+*{
+    outline:1px solid pink;
+}
+
+/* Reset */
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "PT Sans", sans-serif;
+    font-style:normal;
+    outline:5px dashed red;
+}
+
+/* Palette */
+
+.blue-bg{
+    background-color: #0084FD;
+}
+
+.blue-color{
+    color:#0084FD;
+}
+
+.light-blue-bg{
+    background-color: #B5DDFF;
+}
+
+/* General Rules */
+
+.flex{
+    display:flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.container{
+    width:100%;
+    margin: 0 auto;
+}
+
+.hamburger{
+    display:block;
+    font-size:50px;
+}
+
+.right-header{
+    display:none;
+}
+
+/* Header */
+
+
+header{
+    padding:15px 5px;
+}
+
