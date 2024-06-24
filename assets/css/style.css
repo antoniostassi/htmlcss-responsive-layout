@@ -1,9 +1,9 @@
 
 /* Debug */
-
+/* 
 *{
     outline:1px solid pink;
-}
+} */
 
 /* Reset */
 
@@ -38,7 +38,17 @@ html a{
     background-color: #B5DDFF;
 }
 
+.white-bg{
+    background-color: white;
+}
+
 /* General Rules */
+
+.button {
+    border-radius:20px;
+    color: black;
+    padding:5px 15px;
+}
 
 .flex{
     display:flex;
