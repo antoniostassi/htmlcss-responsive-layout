@@ -7,19 +7,19 @@
 
 /* Reset */
 
-*{
+* {
     padding:0;
     margin:0;
     box-sizing: border-box;
 }
 
-html{
+html {
     font-family: "PT Sans", sans-serif;
     font-style:normal;
     outline:5px dashed red;
 }
 
-html a{
+html a {
     text-decoration:none;
     color:white;
 }
@@ -30,20 +30,24 @@ html img {
 
 /* Palette */
 
-.blue-bg{
+.blue-bg {
     background-color: #0084FD;
 }
 
-.blue-color{
+.blue-color {
     color:#0084FD;
 }
 
-.light-blue-bg{
+.light-blue-bg {
     background-color: #B5DDFF;
 }
 
-.white-bg{
+.white-bg {
     background-color: white;
+}
+
+.light-purple-bg {
+    background-color: #9792E4;
 }
 
 /* General Rules */
@@ -54,19 +58,19 @@ html img {
     padding:5px 15px;
 }
 
-.flex{
+.flex {
     display:flex;
 }
 
-.wrap{
+.wrap {
     flex-wrap:wrap;
 }
 
-.space-between{
+.space-between {
     justify-content: space-between;
 }
 
-.container{
+.container {
     width:100%;
     margin: 0 auto;
     padding:0 10px;
@@ -75,44 +79,49 @@ html img {
 
 /* Header */
 
-header{
+header {
     padding:15px 0;
 }
 
-.right-header{
+.right-header {
     display:none;
 }
 
-.hamburger{
+.hamburger {
     display:none;
     font-size:30px;
     color:white;
     padding:0 15px;
 }
 
-.right-header ul{
+.right-header ul {
     list-style-type: none;
 
 }
 
-.right-header ul li{
+.right-header ul li {
     margin:0 10px;
 }
 
 /* Main */
 
-main .container > .my-row{
+main .container > .my-row {
     margin:50px 0;
 }
 
-.my-col{
+.my-col {
     border-radius:20px;
+    margin-bottom:40px;
 }
 
-.my-col > .card{
+.my-col > .card {
     padding-top:30px;
     padding-left:30px;
     padding-right:30px;
+}
+
+.my-col.tablet-col-1-3{
+    padding-bottom: 30px;
 }
 
 .card-image > img {
@@ -120,7 +129,7 @@ main .container > .my-row{
     display:block;
 }
 
-.card-description > div > a{
+.card-description > div > a {
     color:white;
     letter-spacing:5px;
     font-weight:bold;
@@ -132,12 +141,83 @@ main .container > .my-row{
     font-weight:bold;
 }
 
-.card > h2 {
-    font-weight:bold;
-    margin-bottom:30px;
+
+.card-description > p {
+    word-spacing:2px;
+    line-height: 1.8rem;
+    margin-top:10px;
 }
 
 .card-description > i {
     font-size:5rem;
     margin-bottom:20px;
+}
+
+.card > h2 {
+    font-weight:bold;
+    margin-bottom:30px;
+}
+
+/* Purple Section */
+
+.development-card img {
+    width:100%;
+}
+
+.development-card {
+    line-height:1.5rem;
+}
+
+.development-card p {
+    margin-top:15px;
+    margin-bottom:20px;
+    font-style:oblique;
+}
+
+.arrow.light-purple-bg{
+    margin:auto;
+    width:20px;
+    height:20px;
+    border-radius:100%;
+    padding:20px;
+    justify-content:center;
+    align-items:center;
+}
+
+.arrow.light-purple-bg a{
+    color:black;
+}
+
+.my-row .my-col:not(:first-of-type) .card .card-description {
+    text-align:center;
+}
+
+.light-purple-bg .my-col > .card{
+    padding:0;
+}
+
+.light-purple-bg .my-col > .card > .development-card {
+    padding:30px;
+    background-color:white;
+    border-radius:30px;
+    text-align:center;
+    width:100%;
+    margin-bottom:20px;
+}
+
+.light-purple-bg .my-col > p {
+    margin-top:30px;
+}
+
+.light-purple-bg .my-col > h2{
+    margin-top:40px;
+}
+
+.light-purple-bg .my-col > p,
+.light-purple-bg .my-col > h2{
+    color:white;
+}
+
+.light-purple-bg {
+    padding:10px 0;
 }

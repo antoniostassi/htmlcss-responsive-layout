@@ -5,17 +5,13 @@
 /* Mobile */
 
 @media screen and (max-width:767px){
-    .mobile-col{
+
+    .mobile-col {
         width:100%;
-        margin-bottom:40px;
     }
     
     .card-image {
         text-align:center;
-    }
-
-    .mobile-col p{
-        padding-bottom:30px;
     }
 
     /* Button */
@@ -29,28 +25,21 @@
         padding:0 40px;
     }
 
-    .card-description > p {
-        word-spacing:2px;
-        line-height: 1.8rem;
-        margin-top:10px;
-    }
-    
-    .my-row .my-col:not(:first-of-type) .card .card-description {
-        text-align:center;
-    }
 }
 
 
 
 /* Tablet */
 @media screen and (max-width:991px) {
+
     .hamburger{
         display:block;
     }
+
 }
 
 @media screen and (min-width:768px) {
-    
+
     .container {
         padding:0 40px;
     }
@@ -60,20 +49,18 @@
         line-height: 1.2rem;
     }
 
-
-    .tablet-col-1-3{
+    .tablet-col-1-3 {
         width:calc((100% / 3) - 20px);
         margin:0 10px 20px 10px;
         text-align:center;
-        padding-bottom:30px;
     }
     
-    .tablet-col-1-3-2{
+    .tablet-col-1-3-2 {
         width:calc(((100% / 3) * 2 - 20px));
         margin:0 10px 20px 10px;
     }
 
-    .my-row.flex.wrap.space-between{
+    .my-row.flex.wrap.space-between {
         margin-left:-10px;
         margin-right:-10px;
     }
@@ -86,25 +73,30 @@
         margin:30px 0;
     }
 
-    .card-description > p{
+    .card-description > p {
         margin-top:10px;
     }
 
-    
+    .light-purple-bg .my-col > h2{
+        font-size:4rem;
+    }
+
 }
 
 
 /* Desktop */
 @media screen and (min-width:992px){
-    .container{
+
+    .container {
         max-width:1200px;
     }
 
-    .right-header{
+    .right-header {
         display:flex;
         align-items:center;
     }
-    .card {
+
+    .my-col.tablet-col-1-3-2 .card {
         display:flex;
     }
 
@@ -120,16 +112,47 @@
         margin-top:80px;
     }
 
-    .card > h2{
+    .my-col.tablet-col-1-3-2 .card > h2 {
         position:absolute;
     }
 
-    .my-row .my-col:first-of-type .card-description > p{
+    .my-row .my-col:first-of-type .card-description > p {
         margin-top:70px;
     }
 
     .card-image > img {
         margin-top:50px;
+    }
+
+    .desktop-col-1-2 {
+        width:calc(100% / 2 - 20px);
+    }
+
+    .my-col .desktop-col-1-2 > .card > .development-card > img{
+        display:block;
+        width:50px;
+    }
+
+    .my-col.desktop-col-1-2 > .card > .development-card {
+
+        width:60%;
+    }
+
+    .my-col.desktop-col-1-2 > .card > .development-card > p,
+    .my-col.desktop-col-1-2 > .card > .development-card > h2{
+        color:black;
+    }
+
+    .my-col.desktop-col-1-2 > .card > .development-card > p {
+        margin:20px 0;
+    }
+
+    .light-purple-bg > .container > .my-row.flex {
+        align-items:flex-end;
+    }
+
+    .my-col.desktop-col-1-2 > h2 {
+        font-size:1.5rem;
     }
 
 }
