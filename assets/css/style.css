@@ -1,13 +1,9 @@
 
 /* Debug */
 
-*{
+/* *{
     outline:1px solid pink;
-}
-
-.my-col {
-    min-height:100px;
-}
+} */
 
 /* Reset */
 
@@ -26,6 +22,10 @@ html{
 html a{
     text-decoration:none;
     color:white;
+}
+
+html img {
+    max-width:100%;
 }
 
 /* Palette */
@@ -103,4 +103,40 @@ header{
 
 main .container > .my-row{
     margin:50px 0;
+}
+
+.my-col{
+    border-radius:20px;
+}
+
+.my-col > .card{
+    padding:30px;
+    padding-bottom:0;
+}
+
+.card-image > img {
+    width:90%;
+    display:block;
+}
+
+.card-description > div > a{
+    color:white;
+    letter-spacing:5px;
+    font-weight:bold;
+    padding:10px 25px;
+}
+
+.card-description > p {
+    color:#5D7183;
+    font-weight:bold;
+}
+
+.card > h2 {
+    font-weight:bold;
+    margin-bottom:30px;
+}
+
+.card-image img{
+    position:relative;
+    top:2px;
 }
