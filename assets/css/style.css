@@ -5,6 +5,10 @@
     outline:1px solid pink;
 }
 
+.my-col {
+    min-height:100px;
+}
+
 /* Reset */
 
 *{
@@ -65,12 +69,14 @@ html a{
 .container{
     width:100%;
     margin: 0 auto;
+    padding:0 10px;
 }
+
 
 /* Header */
 
 header{
-    padding:15px 15px;
+    padding:15px 0;
 }
 
 .right-header{
@@ -93,7 +99,8 @@ header{
     margin:0 10px;
 }
 
-.my-col{
-    min-height:100px;
-}
+/* Main */
 
+main .container > .my-row{
+    margin:50px 0;
+}
