@@ -354,3 +354,13 @@ main .container > .my-row {
     border-radius: 20px;
     margin:20px 0 50px;
 }
+
+/* Footer */
+footer {
+    text-align:center;
+}
+
+.footer-info {
+    margin:auto;
+    max-width:700px;
+}
