@@ -420,7 +420,12 @@ footer {
     text-decoration:underline;
 }
 
-footer > section:last-child > .container > p {
+footer > section:last-child > .container > .black-footer-desc-cont {
+    margin:auto;
+    width:60%;
+}
+
+footer > section:last-child > .container > .black-footer-desc-cont > p {
     color:white;
 }
 
@@ -429,10 +434,10 @@ footer > section:last-child > .container {
     padding-bottom:40px;
 }
 
-footer > section:last-child > .container > p:first-child {
+footer > section:last-child > .container > .black-footer-desc-cont > p:first-child {
     margin-bottom:20px;
 }
 
-footer > section:last-child > .container > p:last-child > a {
+footer > section:last-child > .container > .black-footer-desc-cont > p:last-child > a {
     text-decoration:underline;
 }
