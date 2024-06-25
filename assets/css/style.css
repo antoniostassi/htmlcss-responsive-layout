@@ -364,3 +364,53 @@ footer {
     margin:auto;
     max-width:700px;
 }
+
+.footer-info > h5 {
+    margin:20px 0;
+    letter-spacing:5px;
+    color:white;
+    font-weight:normal;
+}
+
+.footer-info > h2 {
+    color:white;
+    font-size:3rem;
+}
+
+.footer-info > h1 {
+    color:#FDC15F;
+    font-size:5rem;
+    margin:20px 0;
+}
+
+.footer-info > .desc-cont {
+    margin:auto;
+    width:70%;
+}
+
+.footer-info > .desc-cont > .pre-button-desc {
+    line-height:25px;
+    word-spacing:5px;
+    color:white;
+}
+
+.footer-info > .button.white-bg {
+    margin:20px auto;
+    width:max-content;
+    padding:15px 80px;
+    border-radius:50px;
+}
+
+.footer-info > .button.white-bg > a {
+    font-weight:bold;
+    letter-spacing:5px;
+}
+
+.footer-info > p {
+    color:white;
+    font-size:0.8rem;
+}
+
+.footer-info > p > a {
+    text-decoration:underline;
+}
