@@ -98,6 +98,15 @@
         width:calc((100% / 2) - 10px);
     }
 
+    .about{
+        display:flex;
+        justify-content:space-between;
+    }
+
+    .about > .image-section > h2 {
+        text-align:left;
+    }
+
 }
 
 

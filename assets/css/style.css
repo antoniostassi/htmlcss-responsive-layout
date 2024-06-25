@@ -1,7 +1,7 @@
 
 /* Debug */
-
-/* *{
+/* 
+*{
     outline:1px solid pink;
 } */
 
@@ -308,4 +308,49 @@ main .container > .my-row {
 .benefits .button {
     width:max-content;
     padding:10px 50px;
+}
+
+/* About Us */
+
+.about > .description > h2 {
+    font-size:3rem;
+    margin:40px 0 20px;
+}
+
+.about > .description > p {
+    line-height:30px;
+}
+
+.about > .image-section > .quoted-image {
+    position:relative;
+    width:max-content;
+}
+
+.about > .image-section > .quoted-image > img {
+    width:150px;
+    height:150px;
+    display:block;
+    border-radius:50%;
+    object-fit:cover;
+    margin:40px 0 20px;
+}
+
+.quoted-image > .big-quote-icon {
+    position:absolute;
+    top:-5px;
+    right:-20px;
+    font-size:4rem;
+    line-height:0;
+}
+
+.about > .image-section > h2 {
+    font-size:2rem;
+    font-weight:bold;
+}
+
+.about > .image-section > .bottom.light-purple-bg{
+    width:max-content;
+    padding:6px 20px;
+    border-radius: 20px;
+    margin:20px 0 50px;
 }
